@@ -1,7 +1,7 @@
 {
   "name": "ember-module-import-snippets",
   "main": "./lib/ember-module-import-snippets",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your package",
   "keywords": [
     "ember",
