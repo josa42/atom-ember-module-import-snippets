@@ -1,0 +1,415 @@
+'.source.js':
+  "import Ember.$":
+    "prefix": "import-ember-jquery"
+    "body": "import $ from 'jquery'"
+  "import Ember.A":
+    "prefix": "import-ember-a"
+    "body": "import { A } from '@ember/array'"
+  "import Ember.Application":
+    "prefix": "import-ember-application"
+    "body": "import Application from '@ember/application'"
+  "import Ember.Array":
+    "prefix": "import-ember-array"
+    "body": "import EmberArray from '@ember/array'"
+  "import Ember.ArrayProxy":
+    "prefix": "import-ember-array-proxy"
+    "body": "import ArrayProxy from '@ember/array/proxy'"
+  "import Ember.AutoLocation":
+    "prefix": "import-ember-auto-location"
+    "body": "import AutoLocation from '@ember/routing/auto-location'"
+  "import Ember.Checkbox":
+    "prefix": "import-ember-checkbox"
+    "body": "import Checkbox from '@ember/component/checkbox'"
+  "import Ember.Component":
+    "prefix": "import-ember-component"
+    "body": "import Component from '@ember/component'"
+  "import Ember.ContainerDebugAdapter":
+    "prefix": "import-ember-container-debug-adapter"
+    "body": "import ContainerDebugAdapter from '@ember/debug/container-debug-adapter'"
+  "import Ember.Controller":
+    "prefix": "import-ember-controller"
+    "body": "import Controller from '@ember/controller'"
+  "import Ember.DataAdapter":
+    "prefix": "import-ember-data-adapter"
+    "body": "import DataAdapter from '@ember/debug/data-adapter'"
+  "import Ember.DefaultResolver":
+    "prefix": "import-ember-default-resolver"
+    "body": "import GlobalsResolver from '@ember/application/globals-resolver'"
+  "import Ember.Enumerable":
+    "prefix": "import-ember-enumerable"
+    "body": "import Enumerable from '@ember/enumerable'"
+  "import Ember.Evented":
+    "prefix": "import-ember-evented"
+    "body": "import Evented from '@ember/object/evented'"
+  "import Ember.HashLocation":
+    "prefix": "import-ember-hash-location"
+    "body": "import HashLocation from '@ember/routing/hash-location'"
+  "import Ember.Helper":
+    "prefix": "import-ember-helper"
+    "body": "import Helper from '@ember/component/helper'"
+  "import Ember.Helper.helper":
+    "prefix": "import-ember-helper-helper"
+    "body": "import { helper } from '@ember/component/helper'"
+  "import Ember.HistoryLocation":
+    "prefix": "import-ember-history-location"
+    "body": "import HistoryLocation from '@ember/routing/history-location'"
+  "import Ember.LinkComponent":
+    "prefix": "import-ember-link-component"
+    "body": "import LinkComponent from '@ember/routing/link-component'"
+  "import Ember.Location":
+    "prefix": "import-ember-location"
+    "body": "import Location from '@ember/routing/location'"
+  "import Ember.Map":
+    "prefix": "import-ember-map"
+    "body": "import EmberMap from '@ember/map'"
+  "import Ember.MapWithDefault":
+    "prefix": "import-ember-map-with-default"
+    "body": "import MapWithDefault from '@ember/map/with-default'"
+  "import Ember.Mixin":
+    "prefix": "import-ember-mixin"
+    "body": "import Mixin from '@ember/object/mixin'"
+  "import Ember.MutableArray":
+    "prefix": "import-ember-mutable-array"
+    "body": "import MutableArray from '@ember/array/mutable'"
+  "import Ember.NoneLocation":
+    "prefix": "import-ember-none-location"
+    "body": "import NoneLocation from '@ember/routing/none-location'"
+  "import Ember.Object":
+    "prefix": "import-ember-object"
+    "body": "import EmberObject from '@ember/object'"
+  "import Ember.RSVP":
+    "prefix": "import-ember-rsvp"
+    "body": "import RSVP from 'rsvp'"
+  "import Ember.Resolver":
+    "prefix": "import-ember-resolver"
+    "body": "import Resolver from '@ember/application/resolver'"
+  "import Ember.Route":
+    "prefix": "import-ember-route"
+    "body": "import Route from '@ember/routing/route'"
+  "import Ember.Router":
+    "prefix": "import-ember-router"
+    "body": "import Router from '@ember/routing/router'"
+  "import Ember.Service":
+    "prefix": "import-ember-service"
+    "body": "import Service from '@ember/service'"
+  "import Ember.String.camelize":
+    "prefix": "import-ember-string-camelize"
+    "body": "import { camelize } from '@ember/string'"
+  "import Ember.String.capitalize":
+    "prefix": "import-ember-string-capitalize"
+    "body": "import { capitalize } from '@ember/string'"
+  "import Ember.String.classify":
+    "prefix": "import-ember-string-classify"
+    "body": "import { classify } from '@ember/string'"
+  "import Ember.String.dasherize":
+    "prefix": "import-ember-string-dasherize"
+    "body": "import { dasherize } from '@ember/string'"
+  "import Ember.String.decamelize":
+    "prefix": "import-ember-string-decamelize"
+    "body": "import { decamelize } from '@ember/string'"
+  "import Ember.String.fmt":
+    "prefix": "import-ember-string-fmt"
+    "body": "import { fmt } from '@ember/string'"
+  "import Ember.String.htmlSafe":
+    "prefix": "import-ember-string-html-safe"
+    "body": "import { htmlSafe } from '@ember/string'"
+  "import Ember.String.loc":
+    "prefix": "import-ember-string-loc"
+    "body": "import { loc } from '@ember/string'"
+  "import Ember.String.underscore":
+    "prefix": "import-ember-string-underscore"
+    "body": "import { underscore } from '@ember/string'"
+  "import Ember.String.w":
+    "prefix": "import-ember-string-w"
+    "body": "import { w } from '@ember/string'"
+  "import Ember.TextArea":
+    "prefix": "import-ember-text-area"
+    "body": "import TextArea from '@ember/component/text-area'"
+  "import Ember.TextField":
+    "prefix": "import-ember-text-field"
+    "body": "import TextField from '@ember/component/text-field'"
+  "import Ember.addListener":
+    "prefix": "import-ember-add-listener"
+    "body": "import { addListener } from '@ember/object/events'"
+  "import Ember.addObserver":
+    "prefix": "import-ember-add-observer"
+    "body": "import { addObserver } from '@ember/object/observers'"
+  "import Ember.aliasMethod":
+    "prefix": "import-ember-alias-method"
+    "body": "import { aliasMethod } from '@ember/object'"
+  "import Ember.assert":
+    "prefix": "import-ember-assert"
+    "body": "import { assert } from '@ember/debug'"
+  "import Ember.assign":
+    "prefix": "import-ember-assign"
+    "body": "import { assign } from '@ember/polyfills'"
+  "import Ember.cacheFor":
+    "prefix": "import-ember-cache-for"
+    "body": "import { cacheFor } from '@ember/object/internals'"
+  "import Ember.compare":
+    "prefix": "import-ember-compare"
+    "body": "import { compare } from '@ember/utils'"
+  "import Ember.computed":
+    "prefix": "import-ember-computed"
+    "body": "import { computed } from '@ember/object'"
+  "import Ember.computed.alias":
+    "prefix": "import-ember-computed-alias"
+    "body": "import { alias } from '@ember/object/computed'"
+  "import Ember.computed.and":
+    "prefix": "import-ember-computed-and"
+    "body": "import { and } from '@ember/object/computed'"
+  "import Ember.computed.bool":
+    "prefix": "import-ember-computed-bool"
+    "body": "import { bool } from '@ember/object/computed'"
+  "import Ember.computed.collect":
+    "prefix": "import-ember-computed-collect"
+    "body": "import { collect } from '@ember/object/computed'"
+  "import Ember.computed.deprecatingAlias":
+    "prefix": "import-ember-computed-deprecating-alias"
+    "body": "import { deprecatingAlias } from '@ember/object/computed'"
+  "import Ember.computed.empty":
+    "prefix": "import-ember-computed-empty"
+    "body": "import { empty } from '@ember/object/computed'"
+  "import Ember.computed.equal":
+    "prefix": "import-ember-computed-equal"
+    "body": "import { equal } from '@ember/object/computed'"
+  "import Ember.computed.filter":
+    "prefix": "import-ember-computed-filter"
+    "body": "import { filter } from '@ember/object/computed'"
+  "import Ember.computed.filterBy":
+    "prefix": "import-ember-computed-filter-by"
+    "body": "import { filterBy } from '@ember/object/computed'"
+  "import Ember.computed.filterProperty":
+    "prefix": "import-ember-computed-filter-property"
+    "body": "import { filterProperty } from '@ember/object/computed'"
+  "import Ember.computed.gt":
+    "prefix": "import-ember-computed-gt"
+    "body": "import { gt } from '@ember/object/computed'"
+  "import Ember.computed.gte":
+    "prefix": "import-ember-computed-gte"
+    "body": "import { gte } from '@ember/object/computed'"
+  "import Ember.computed.intersect":
+    "prefix": "import-ember-computed-intersect"
+    "body": "import { intersect } from '@ember/object/computed'"
+  "import Ember.computed.lt":
+    "prefix": "import-ember-computed-lt"
+    "body": "import { lt } from '@ember/object/computed'"
+  "import Ember.computed.lte":
+    "prefix": "import-ember-computed-lte"
+    "body": "import { lte } from '@ember/object/computed'"
+  "import Ember.computed.map":
+    "prefix": "import-ember-computed-map"
+    "body": "import { map } from '@ember/object/computed'"
+  "import Ember.computed.mapBy":
+    "prefix": "import-ember-computed-map-by"
+    "body": "import { mapBy } from '@ember/object/computed'"
+  "import Ember.computed.mapProperty":
+    "prefix": "import-ember-computed-map-property"
+    "body": "import { mapProperty } from '@ember/object/computed'"
+  "import Ember.computed.match":
+    "prefix": "import-ember-computed-match"
+    "body": "import { match } from '@ember/object/computed'"
+  "import Ember.computed.max":
+    "prefix": "import-ember-computed-max"
+    "body": "import { max } from '@ember/object/computed'"
+  "import Ember.computed.min":
+    "prefix": "import-ember-computed-min"
+    "body": "import { min } from '@ember/object/computed'"
+  "import Ember.computed.none":
+    "prefix": "import-ember-computed-none"
+    "body": "import { none } from '@ember/object/computed'"
+  "import Ember.computed.not":
+    "prefix": "import-ember-computed-not"
+    "body": "import { not } from '@ember/object/computed'"
+  "import Ember.computed.notEmpty":
+    "prefix": "import-ember-computed-not-empty"
+    "body": "import { notEmpty } from '@ember/object/computed'"
+  "import Ember.computed.oneWay":
+    "prefix": "import-ember-computed-one-way"
+    "body": "import { oneWay } from '@ember/object/computed'"
+  "import Ember.computed.or":
+    "prefix": "import-ember-computed-or"
+    "body": "import { or } from '@ember/object/computed'"
+  "import Ember.computed.readOnly":
+    "prefix": "import-ember-computed-read-only"
+    "body": "import { readOnly } from '@ember/object/computed'"
+  "import Ember.computed.reads":
+    "prefix": "import-ember-computed-reads"
+    "body": "import { reads } from '@ember/object/computed'"
+  "import Ember.computed.setDiff":
+    "prefix": "import-ember-computed-set-diff"
+    "body": "import { setDiff } from '@ember/object/computed'"
+  "import Ember.computed.sort":
+    "prefix": "import-ember-computed-sort"
+    "body": "import { sort } from '@ember/object/computed'"
+  "import Ember.computed.sum":
+    "prefix": "import-ember-computed-sum"
+    "body": "import { sum } from '@ember/object/computed'"
+  "import Ember.computed.union":
+    "prefix": "import-ember-computed-union"
+    "body": "import { union } from '@ember/object/computed'"
+  "import Ember.computed.uniq":
+    "prefix": "import-ember-computed-uniq"
+    "body": "import { uniq } from '@ember/object/computed'"
+  "import Ember.copy":
+    "prefix": "import-ember-copy"
+    "body": "import { copy } from '@ember/object/internals'"
+  "import Ember.create":
+    "prefix": "import-ember-create"
+    "body": "import { create } from '@ember/polyfills'"
+  "import Ember.debug":
+    "prefix": "import-ember-debug"
+    "body": "import { debug } from '@ember/debug'"
+  "import Ember.deprecate":
+    "prefix": "import-ember-deprecate"
+    "body": "import { deprecate } from '@ember/application/deprecations'"
+  "import Ember.deprecateFunc":
+    "prefix": "import-ember-deprecate-func"
+    "body": "import { deprecateFunc } from '@ember/application/deprecations'"
+  "import Ember.get":
+    "prefix": "import-ember-get"
+    "body": "import { get } from '@ember/object'"
+  "import Ember.getOwner":
+    "prefix": "import-ember-get-owner"
+    "body": "import { getOwner } from '@ember/application'"
+  "import Ember.getProperties":
+    "prefix": "import-ember-get-properties"
+    "body": "import { getProperties } from '@ember/object'"
+  "import Ember.guidFor":
+    "prefix": "import-ember-guid-for"
+    "body": "import { guidFor } from '@ember/object/internals'"
+  "import Ember.inject.controller":
+    "prefix": "import-ember-inject-controller"
+    "body": "import { inject } from '@ember/controller'"
+  "import Ember.inject.service":
+    "prefix": "import-ember-inject-service"
+    "body": "import { inject } from '@ember/service'"
+  "import Ember.inspect":
+    "prefix": "import-ember-inspect"
+    "body": "import { inspect } from '@ember/debug'"
+  "import Ember.instrument":
+    "prefix": "import-ember-instrument"
+    "body": "import { instrument } from '@ember/instrumentation'"
+  "import Ember.isArray":
+    "prefix": "import-ember-is-array"
+    "body": "import { isArray } from '@ember/array'"
+  "import Ember.isBlank":
+    "prefix": "import-ember-is-blank"
+    "body": "import { isBlank } from '@ember/utils'"
+  "import Ember.isEmpty":
+    "prefix": "import-ember-is-empty"
+    "body": "import { isEmpty } from '@ember/utils'"
+  "import Ember.isEqual":
+    "prefix": "import-ember-is-equal"
+    "body": "import { isEqual } from '@ember/utils'"
+  "import Ember.isNone":
+    "prefix": "import-ember-is-none"
+    "body": "import { isNone } from '@ember/utils'"
+  "import Ember.isPresent":
+    "prefix": "import-ember-is-present"
+    "body": "import { isPresent } from '@ember/utils'"
+  "import Ember.keys":
+    "prefix": "import-ember-keys"
+    "body": "import { keys } from '@ember/polyfills'"
+  "import Ember.makeArray":
+    "prefix": "import-ember-make-array"
+    "body": "import { makeArray } from '@ember/array'"
+  "import Ember.observer":
+    "prefix": "import-ember-observer"
+    "body": "import { observer } from '@ember/object'"
+  "import Ember.on":
+    "prefix": "import-ember-on"
+    "body": "import { on } from '@ember/object/evented'"
+  "import Ember.onLoad":
+    "prefix": "import-ember-on-load"
+    "body": "import { onLoad } from '@ember/application'"
+  "import Ember.platform.defineProperty":
+    "prefix": "import-ember-platform-define-property"
+    "body": "import { defineProperty } from '@ember/polyfills'"
+  "import Ember.platform.hasPropertyAccessors":
+    "prefix": "import-ember-platform-has-property-accessors"
+    "body": "import { hasPropertyAccessors } from '@ember/polyfills'"
+  "import Ember.removeListener":
+    "prefix": "import-ember-remove-listener"
+    "body": "import { removeListener } from '@ember/object/events'"
+  "import Ember.removeObserver":
+    "prefix": "import-ember-remove-observer"
+    "body": "import { removeObserver } from '@ember/object/observers'"
+  "import Ember.reset":
+    "prefix": "import-ember-reset"
+    "body": "import { reset } from '@ember/instrumentation'"
+  "import Ember.run":
+    "prefix": "import-ember-run"
+    "body": "import { run } from '@ember/runloop'"
+  "import Ember.run.begin":
+    "prefix": "import-ember-run-begin"
+    "body": "import { begin } from '@ember/runloop'"
+  "import Ember.run.bind":
+    "prefix": "import-ember-run-bind"
+    "body": "import { bind } from '@ember/runloop'"
+  "import Ember.run.cancel":
+    "prefix": "import-ember-run-cancel"
+    "body": "import { cancel } from '@ember/runloop'"
+  "import Ember.run.debounce":
+    "prefix": "import-ember-run-debounce"
+    "body": "import { debounce } from '@ember/runloop'"
+  "import Ember.run.end":
+    "prefix": "import-ember-run-end"
+    "body": "import { end } from '@ember/runloop'"
+  "import Ember.run.join":
+    "prefix": "import-ember-run-join"
+    "body": "import { join } from '@ember/runloop'"
+  "import Ember.run.later":
+    "prefix": "import-ember-run-later"
+    "body": "import { later } from '@ember/runloop'"
+  "import Ember.run.next":
+    "prefix": "import-ember-run-next"
+    "body": "import { next } from '@ember/runloop'"
+  "import Ember.run.once":
+    "prefix": "import-ember-run-once"
+    "body": "import { once } from '@ember/runloop'"
+  "import Ember.run.schedule":
+    "prefix": "import-ember-run-schedule"
+    "body": "import { schedule } from '@ember/runloop'"
+  "import Ember.run.scheduleOnce":
+    "prefix": "import-ember-run-schedule-once"
+    "body": "import { scheduleOnce } from '@ember/runloop'"
+  "import Ember.run.throttle":
+    "prefix": "import-ember-run-throttle"
+    "body": "import { throttle } from '@ember/runloop'"
+  "import Ember.runInDebug":
+    "prefix": "import-ember-run-in-debug"
+    "body": "import { runInDebug } from '@ember/debug'"
+  "import Ember.runLoadHooks":
+    "prefix": "import-ember-run-load-hooks"
+    "body": "import { runLoadHooks } from '@ember/application'"
+  "import Ember.sendEvent":
+    "prefix": "import-ember-send-event"
+    "body": "import { sendEvent } from '@ember/object/events'"
+  "import Ember.set":
+    "prefix": "import-ember-set"
+    "body": "import { set } from '@ember/object'"
+  "import Ember.setOwner":
+    "prefix": "import-ember-set-owner"
+    "body": "import { setOwner } from '@ember/application'"
+  "import Ember.setProperties":
+    "prefix": "import-ember-set-properties"
+    "body": "import { setProperties } from '@ember/object'"
+  "import Ember.subscribe":
+    "prefix": "import-ember-subscribe"
+    "body": "import { subscribe } from '@ember/instrumentation'"
+  "import Ember.tryInvoke":
+    "prefix": "import-ember-try-invoke"
+    "body": "import { tryInvoke } from '@ember/utils'"
+  "import Ember.trySet":
+    "prefix": "import-ember-try-set"
+    "body": "import { trySet } from '@ember/object'"
+  "import Ember.typeOf":
+    "prefix": "import-ember-type-of"
+    "body": "import { typeOf } from '@ember/utils'"
+  "import Ember.unsubscribe":
+    "prefix": "import-ember-unsubscribe"
+    "body": "import { unsubscribe } from '@ember/instrumentation'"
+  "import Ember.warn":
+    "prefix": "import-ember-warn"
+    "body": "import { warn } from '@ember/debug'"

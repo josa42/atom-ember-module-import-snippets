@@ -1,0 +1,16 @@
+{
+  "name": "ember-module-import-snippets",
+  "main": "./lib/ember-module-import-snippets",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "ember",
+    "emberjs",
+    "snippets"
+  ],
+  "repository": "https://github.com/josa42/atom-ember-module-import-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
